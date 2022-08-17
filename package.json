@@ -1,0 +1,39 @@
+{
+  "name": "script-setup-converter",
+  "version": "1.0.0",
+  "description": "This repository is support cli for converting setup function SFC to script setup SFC",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sor4chi/script-setup-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sor4chi/script-setup-converter/issues"
+  },
+  "homepage": "https://github.com/sor4chi/script-setup-converter#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "@vue/compiler-sfc": "^3.2.37",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.8",
+    "vue": "^3.2.37",
+    "vue-template-compiler": "^2.7.8"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
